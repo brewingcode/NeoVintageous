@@ -156,7 +156,7 @@ converted to snake_case and accepts args key=value format: >
     nnoremap <leader>p :ShowOverlay overlay=goto show_files=true<CR>
     nnoremap <leader>f :ShowOverlay overlay=goto text=@<CR>
 
-Super-keys, known as windows-keys or command-keys, are disabled by default: >
+Super-keys, known as windows-keys or command-keys: >
 
     nnoremap <D-i> :GotoSymbolInProject<CR>
 
@@ -206,7 +206,7 @@ More examples: >
     " Show me the symbols.
     nnoremap <leader>f :ShowOverlay overlay=goto text=@<CR>
     nnoremap <leader>i :GotoSymbolInProject<CR>
-    " Or if you're using super-keys (disabled by default):
+    " Or using a super-key:
     nnoremap <D-i> :GotoSymbolInProject<CR>
 
     " Sorted.
@@ -547,7 +547,7 @@ CTRL-[ -> Esc: >
 
                                                  *'vintageous_use_super_keys'*
 'vintageous_use_super_keys'
-                        boolean (default off)
+                        boolean (default: true)
         Enable key bindings prefaced by the super-key, otherwise known as the
         command-key in OSX, and as the windows-key in Windows.
 
